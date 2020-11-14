@@ -1,0 +1,26 @@
+{
+  "name": "StallFront",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/axios": "^5.12.2",
+    "core-js": "^3.6.5",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.14.6",
+    "nuxt-property-decorator": "^2.8.8",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.0.2",
+    "vuex-module-decorators": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3"
+  }
+}
